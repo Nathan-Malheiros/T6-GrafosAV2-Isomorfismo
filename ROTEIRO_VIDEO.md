@@ -8,17 +8,17 @@
 
 | Apresentador | Tempo estimado | Tópicos |
 |---|---|---|
-| **Nathan** | 0:00 – 1:35 | Abertura, o que é isomorfismo, por que graus não bastam, validação da entrada |
-| **Marcos** | 1:35 – 3:05 | Centro de uma árvore, codificação canônica, por que ordenar os filhos |
+| **MARCOS** | 0:00 – 1:35 | Abertura, o que é isomorfismo, por que graus não bastam, validação da entrada |
+| **NATHAN** | 1:35 – 3:05 | Centro de uma árvore, codificação canônica, por que ordenar os filhos |
 | **Julia** | 3:05 – 4:40 | Como o código lê as entradas, estrutura da solução, execução ao vivo, interpretação da saída, encerramento |
 
 ---
 
 ---
 
-# PARTE 1 — NATHAN (0:00 até ~1:35)
+# PARTE 1 — MARCOS (0:00 até ~1:35)
 
-## O que Nathan precisa entender antes de falar
+## O que MARCOS precisa entender antes de falar
 
 ### Conceito: isomorfismo em árvores
 
@@ -90,7 +90,7 @@ O programa detecta isso e interrompe a comparação com uma mensagem clara.
 
 ---
 
-## Fala do Nathan (leia com naturalidade, não decorado)
+## Fala do MARCOS (leia com naturalidade, não decorado)
 
 > *[0:00]* — Olá, somos Nathan, Marcos e Julia, e nesse vídeo vamos explicar o Trabalho Prático 6 de Grafos: **isomorfismo em árvores** usando codificação canônica.
 >
@@ -102,15 +102,15 @@ O programa detecta isso e interrompe a comparação com uma mensagem clara.
 >
 > *[1:00]* — Antes de qualquer análise estrutural, o programa **valida se cada entrada é de fato uma árvore**. Um grafo é árvore se tem exatamente V menos 1 arestas e é conectado. Se o número de arestas for maior que V menos 1, há um ciclo. Se for menor, o grafo está desconexo. A conectividade é verificada com uma BFS a partir do vértice zero. Se qualquer uma das entradas falhar nessa validação, o programa avisa o motivo e encerra — sem tentar comparar algo inválido.
 >
-> *[1:30]* — Com isso, passo para o Marcos, que vai explicar como encontramos o centro da árvore e como funciona a codificação canônica.
+> *[1:30]* — Com isso, passo para o NATHAN, que vai explicar como encontramos o centro da árvore e como funciona a codificação canônica.
 
 ---
 
 ---
 
-# PARTE 2 — MARCOS (1:35 até ~3:05)
+# PARTE 2 — NATHAN (1:35 até ~3:05)
 
-## O que Marcos precisa entender antes de falar
+## O que NATHAN precisa entender antes de falar
 
 ### Conceito: centro de uma árvore
 
@@ -182,9 +182,9 @@ Calcula-se a codificação enraizando em c[0] e em c[1]. Toma-se a **menor lexic
 
 ---
 
-## Fala do Marcos (leia com naturalidade, não decorado)
+## Fala do NATHAN (leia com naturalidade, não decorado)
 
-> *[1:35]* — Obrigado, Nathan. Agora vou explicar o núcleo do algoritmo: primeiro como encontramos o **centro** da árvore, e depois como geramos a **codificação canônica**.
+> *[1:35]* — Obrigado, MARCOS. Agora vou explicar o núcleo do algoritmo: primeiro como encontramos o **centro** da árvore, e depois como geramos a **codificação canônica**.
 >
 > *[1:42]* — O centro existe porque se enraizarmos a árvore em um vértice qualquer, o código que gerarmos vai depender dessa escolha. Para que duas árvores isomorfas sempre produzam o mesmo código, precisamos de uma raiz que não dependa dos rótulos. O centro é exatamente isso.
 >
@@ -315,7 +315,7 @@ As arvores NAO sao isomorfas.
 
 ## Fala do Julia (leia com naturalidade, não decorado)
 
-> *[3:05]* — Obrigado, Marcos. Agora vou mostrar como o programa é estruturado e o que acontece quando a gente executa.
+> *[3:05]* — Obrigado, NATHAN. Agora vou mostrar como o programa é estruturado e o que acontece quando a gente executa.
 >
 > *[3:10]* — O programa tem dois arquivos criados por nós: `Main.java` e `TreeIsomorphism.java`. Os demais arquivos — `Graph.java`, `In.java`, `StdOut.java` e os outros — são os originais do algs4, sem nenhuma modificação. Isso atende à exigência do trabalho de usar o `Graph.java` como estrutura principal sem alterar a base.
 >
@@ -340,13 +340,13 @@ As arvores NAO sao isomorfas.
 [0:08 - 0:35]  Nathan  → O que é isomorfismo (com exemplo)
 [0:35 - 1:00]  Nathan  → Por que graus e aparência não bastam
 [1:00 - 1:30]  Nathan  → Validação da entrada (E == V-1, BFS)
-[1:30 - 1:35]  Nathan  → Passagem para Marcos
+[1:30 - 1:35]  Nathan  → Passagem para NATHAN
 
-[1:35 - 1:55]  Marcos  → Por que precisamos do centro
-[1:55 - 2:15]  Marcos  → Algoritmo de remoção iterativa de folhas
-[2:15 - 2:38]  Marcos  → Codificação canônica recursiva
-[2:38 - 2:58]  Marcos  → Por que a ordenação dos filhos é necessária
-[2:58 - 3:05]  Marcos  → Caso de dois centros + passagem para Julia
+[1:35 - 1:55]  NATHAN  → Por que precisamos do centro
+[1:55 - 2:15]  NATHAN  → Algoritmo de remoção iterativa de folhas
+[2:15 - 2:38]  NATHAN  → Codificação canônica recursiva
+[2:38 - 2:58]  NATHAN  → Por que a ordenação dos filhos é necessária
+[2:58 - 3:05]  NATHAN  → Caso de dois centros + passagem para Julia
 
 [3:05 - 3:28]  Julia   → Estrutura dos arquivos / sem modificar algs4
 [3:28 - 3:45]  Julia   → Como Main.java lê as entradas
