@@ -3,6 +3,11 @@
 Trabalho Prático 6 da disciplina **Resolução de Problemas com Grafos**  
 Orientador: Prof. Me Ricardo Carubbi — Universidade de Fortaleza (UNIFOR)
 
+## Vídeo Explicativo
+
+Link do vídeo: [Link do video](https://youtu.be/-nECmwNCeMc)
+
+
 ## Descrição
 
 O programa lê duas árvores não direcionadas no formato `algs4` e determina se elas são **isomorfas** usando o algoritmo de **codificação canônica**. O processo segue as etapas:
@@ -125,6 +130,3 @@ v2 w2
 
 onde `V` é o número de vértices, `E` o número de arestas, e cada linha `v w` representa uma aresta. Vértices indexados de `0` a `V-1`.
 
-## Vídeo Explicativo
-
-Link do vídeo: PREENCHER
