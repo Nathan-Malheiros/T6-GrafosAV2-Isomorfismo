@@ -5,7 +5,7 @@
 
 ---
 
-## BLOCO 1 — Nathan: O que é isomorfismo
+## BLOCO 1 — MARCOS: O que é isomorfismo
 
 ### Slide 1.1 — Definição
 
@@ -127,7 +127,7 @@ if (count != V) {
 
 ---
 
-## BLOCO 2 — Marcos: Centro e Codificação Canônica
+## BLOCO 2 — NATHAN: Centro e Codificação Canônica
 
 ### Slide 2.1 — Por que precisamos do centro
 
